@@ -3,6 +3,7 @@ package com.project.sender.configuration;
 import javax.jms.Queue;
 
 import org.apache.activemq.command.ActiveMQQueue;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jms.annotation.EnableJms;
 
@@ -10,6 +11,7 @@ import org.springframework.jms.annotation.EnableJms;
 @EnableJms
 public class JmsConfig {
 
+	@Bean
 	public Queue queue() {
 		return new ActiveMQQueue("test-queue");
 	}
