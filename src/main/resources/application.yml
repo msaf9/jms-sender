@@ -3,3 +3,6 @@ spring:
     broker-url: tcp://localhost:61616
     user: admin
     password: admin
+  security:
+    user:      name: admin
+      password: admin
