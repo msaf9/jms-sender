@@ -1,12 +1,13 @@
 # JMS Sender
 Spring Boot application with JMS.
 
-## Table of contents
-1. Introduction
-2. Technologies
-3. Project status
-4. Installation
-5. License
+- [JMS Sender](#jms-sender)
+  - [Introduction](#introduction)
+  - [Technologies](#technologies)
+  - [Project status](#project-status)
+  - [Installation](#installation)
+    - [Get repository](#get-repository)
+  - [License](#license)
 
 ## Introduction
 This Spring Boot application works as a JMS Sender which sends the message for JMS Receiver to consume.
