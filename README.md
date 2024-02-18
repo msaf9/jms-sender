@@ -24,8 +24,8 @@ This Spring Boot application works as a JMS Sender which sends the message for J
 ## Installation
 ### Get repository
 ```git
-git clone https://github.com/msaf9/JmsSender.git
-cd JmsSender
+git clone https://github.com/msaf9/jms-sender.git
+cd jms-sender
 ```
 
 ## License
